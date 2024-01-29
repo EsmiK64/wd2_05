@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: Inter;
+  src: url("./fonts/Inter-VariableFont_slnt\,wght.ttf");
+}
+
+@layer components {
+  * {
+    font-family: Inter, sans;
+    font-size: 15px;
+    @apply hover:duration-300 transition-all ease-in-out;
+  }
+}
